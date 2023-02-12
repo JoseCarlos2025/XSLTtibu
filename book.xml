@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<bookstore>
+    <book>
+        <refernce>R4563</refernce>
+        <title>El Quijote</title>
+        <editorial>Francisco de Robles</editorial>
+        <writer>Miguel de Cervantes</writer>
+        <sale_date>1605</sale_date>
+        <price>60</price>
+        <number_of_sales>2000000</number_of_sales>
+    </book>
+     <book>
+        <refernce>F3214</refernce>
+        <title>Harry Potter y la piedra filosofal</title>
+        <editorial>Publicaciones y Ediciones Salamandra S.A.</editorial>
+        <writer>J. K. Rowling</writer>
+        <sale_date>1997</sale_date>
+        <price>18</price>
+        <number_of_sales>1200500</number_of_sales>
+    </book>
+     <book>
+        <refernce>H5623</refernce>
+        <title>Esperando al diluvio</title>
+        <editorial>Ediciones Destino</editorial>
+        <writer>Dolores Redondo</writer>
+        <sale_date>15 de noviembre de 2022</sale_date>
+        <price>30</price>
+        <number_of_sales>12567</number_of_sales>
+    </book>
+     <book>
+        <refernce>T6724</refernce>
+        <title>Lejos de Luisiana</title>
+        <editorial>Editorial Planeta</editorial>
+        <writer>Luz Gabas</writer>
+        <sale_date>2022</sale_date>
+        <price>22</price>
+        <number_of_sales>390086</number_of_sales>
+    </book>
+</bookstore>
