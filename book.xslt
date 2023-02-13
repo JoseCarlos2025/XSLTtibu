@@ -43,6 +43,7 @@
         </table>
         
         <p id="demo"></p>
+        <script src="js/book.js"></script>
       </body>
 
     </html>
