@@ -1,15 +1,14 @@
 var xhttp = new XMLHttpRequest();
-xhttp.onreadystatechange = function() {
-    if (this.readyState == 4 && this.status == 200) {
-        showResult(xhttp.responseXML);
-    }
-};
-xhttp.open("GET", "../book.xml", true);
+function Result(value){
+showResult(xhttp.responseXML,value);
+}
+xhttp.open("GET", "book.xml", true);
 xhttp.send(); 
 
-function showResult(xml) {
+function showResult(xml,value) {
     var txt = "";
-    path = "/bookstore/book/title"
+    var array = ["/bookstore/book/title","/bookstore/book/editorial","/bookstore/book/writer","/bookstore/book[price<30]/price","/bookstore/book[price>30]/price","/bookstore/book[price=30]/price"];
+    path = array[value];
     if (xml.evaluate) {
         var nodes = xml.evaluate(path, xml, null, XPathResult.ANY_TYPE, null);
         var result = nodes.iterateNext();

@@ -43,6 +43,16 @@
         </table>
         
         <p id="demo"></p>
+        <button onclick="Result(0)">Boton</button>
+        <button onclick="Result(1)">Boton</button>
+        <button onclick="Result(2)">Boton</button>
+        <button onclick="Result(3)">Boton</button>
+        <button onclick="Result(4)">Boton</button>
+        <button onclick="Result(5)">Boton</button>
+        <button onclick="Result(6)">Boton</button>
+        <button onclick="Result(7)">Boton</button>
+        <button onclick="Result(8)">Boton</button>
+        <button onclick="Result(9)">Boton</button>
         <script src="js/book.js"></script>
       </body>
 
