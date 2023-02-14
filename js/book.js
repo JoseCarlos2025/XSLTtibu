@@ -7,7 +7,7 @@ xhttp.send();
 
 function showResult(xml,value) {
     var txt = "";
-    var array = ["/bookstore/book/title","/bookstore/book/editorial","/bookstore/book/writer","/bookstore/book[price<30]/price","/bookstore/book[price>30]/price","/bookstore/book[price=30]/price"];
+    var array = ["/bookstore/book/title","/bookstore/book/editorial","/bookstore/book/writer","/bookstore/book[price<30]/price","/bookstore/book[price>30]/price","/bookstore/book[price=30]/title","/bookstore/book[refernce='F3214']/title","/bookstore/book[refernce='T6724']/writer","/bookstore/book[4]/title","/bookstore/book/sale_date"];
     path = array[value];
     if (xml.evaluate) {
         var nodes = xml.evaluate(path, xml, null, XPathResult.ANY_TYPE, null);
